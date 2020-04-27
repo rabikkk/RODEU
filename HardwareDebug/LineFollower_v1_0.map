@@ -1,0 +1,30 @@
+Optimizing Linkage Editor (V.10.02.00.000)        26-Apr-2019 19:33:42
+
+*** Options ***
+
+-library=C:\Users\ECE\Desktop\WORKSP~1\LINEFO~1\HARDWA~2\LineFollower_v1_0.lib
+-noprelink
+-list=LineFollower_v1_0.map
+-nooptimize
+-start=SU,SI,B_1,R_1,B_2,R_2,B,R/0,PResetPRG/0FFFC0000,C_1,C_2,C,C$*,D*,W*,L/0FFFC1000,PIntPRG/0FFFC6000,P/0FFFC8000,FIXEDVECT/0FFFFFFD0
+-rom=D=R,D_1=R_1,D_2=R_2
+-nomessage
+-nologo
+-output=C:\Users\ECE\Desktop\Workspace\LineFollower_v1_0\HardwareDebug\LineFollower_v1_0.abs
+-subcommand=C:/Users/ECE/Desktop/Workspace/LineFollower_v1_0\HardwareDebug\LinkerSubCommand.tmp
+-input="./src/LineFollower_v1_0.obj"
+-input="./src/dbsct.obj"
+-input="./src/funcs.obj"
+-input="./src/idcode.obj"
+-input="./src/interrupt_handlers.obj"
+-input="./src/reset_program.obj"
+-input="./src/sbrk.obj"
+-input="./src/vector_table.obj"
+-input="./src/mylib/misc.obj"
+-input="./src/mylib/pid.obj"
+-input="./src/mylib/timers.obj"
+
+*** Error information ***
+
+** L2310 (E) Undefined external symbol "_Check_EightBits" referenced in ".\src\LineFollower_v1_0.obj"
+** L2310 (E) Undefined external symbol "_Check_Oval" referenced in ".\src\LineFollower_v1_0.obj"

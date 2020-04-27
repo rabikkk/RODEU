@@ -1,0 +1,85 @@
+Optimizing Linkage Editor (V.10.02.00.000)        04-Mar-2020 19:01:31
+
+*** Options ***
+
+-library=C:\Users\Cemal\Desktop\robotik\Renesas\e2studio\WORKSP~1\LINEFO~1\Release\LineFollower_v1_0.lib
+-noprelink
+-list=LineFollower_v1_0.map
+-nooptimize
+-start=SU,SI,B_1,R_1,B_2,R_2,B,R/0,PResetPRG/0FFFC0000,C_1,C_2,C,C$*,D*,W*,L/0FFFC1000,PIntPRG/0FFFC6000,P/0FFFC8000,FIXEDVECT/0FFFFFFD0
+-rom=D=R,D_1=R_1,D_2=R_2
+-nomessage
+-nologo
+-nodebug
+-output=C:\Users\Cemal\Desktop\robotik\Renesas\e2studio\Workspace\LineFollower_v1_0\Release\LineFollower_v1_0.abs
+-subcommand=C:/Users/Cemal/Desktop/robotik/Renesas/e2studio/Workspace/LineFollower_v1_0\Release\LinkerSubCommand.tmp
+-input="./src/LineFollower_v1_0.obj"
+-input="./src/dbsct.obj"
+-input="./src/funcs.obj"
+-input="./src/idcode.obj"
+-input="./src/interrupt_handlers.obj"
+-input="./src/reset_program.obj"
+-input="./src/sbrk.obj"
+-input="./src/vector_table.obj"
+-input="./src/mylib/misc.obj"
+-input="./src/mylib/pid.obj"
+-input="./src/mylib/timers.obj"
+
+*** Error information ***
+
+** L1100 (W) Cannot find "L" specified in option "start"
+
+*** Mapping List ***
+
+SECTION                            START      END         SIZE   ALIGN
+
+SU
+                                  00000000  000000ff       100   4
+SI
+                                  00000100  000003ff       300   4
+B_1
+                                  00000400  00000400         0   1
+R_1
+                                  00000400  00000401         2   1
+B_2
+                                  00000402  00000402         0   1
+R_2
+                                  00000402  00000403         2   2
+B
+                                  00000404  00000823       420   4
+R
+                                  00000824  00000883        60   4
+PResetPRG
+                                  fffc0000  fffc0033        34   4
+C_1
+                                  fffc1000  fffc1000         0   1
+C_2
+                                  fffc1000  fffc1000         0   1
+C
+                                  fffc1000  fffc1023        24   4
+C$DSEC
+                                  fffc1024  fffc1047        24   4
+C$BSEC
+                                  fffc1048  fffc105f        18   4
+C$VECT
+                                  fffc1060  fffc145f       400   4
+D
+                                  fffc1460  fffc14bf        60   4
+D_2
+                                  fffc14c0  fffc14c1         2   2
+D_1
+                                  fffc14c2  fffc14c3         2   1
+W
+                                  fffc14c4  fffc14c4         0   1
+W_1
+                                  fffc14c4  fffc14c4         0   1
+W_2
+                                  fffc14c4  fffc14c4         0   1
+PIntPRG
+                                  fffc6000  fffc600f        10   4
+P
+                                  fffc8000  fffc8657       658   4
+$ADDR_C_FFFFFFA0
+                                  ffffffa0  ffffffaf        10   1
+FIXEDVECT
+                                  ffffffd0  ffffffff        30   4

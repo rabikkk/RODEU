@@ -1,0 +1,29 @@
+[HIMDBVersion]
+2.0
+[DATABASE_VERSION]
+"5.0" 
+[WORKSPACE_DETAILS]
+"experiment1" "C:\Users\Rabia\Desktop\Workspace\LineFollower_v1_0\Release\experiment1" "C:\Users\Rabia\Desktop\Workspace\LineFollower_v1_0\Release\experiment1\experiment1.AWS" "All Flash Devices" "" 
+[SHARED_WORKSPACE_CONTROL_STATUS]
+"" "" "" 
+"" "" "" 
+[PROJECTS]
+"experiment1" "C:\Users\Rabia\Desktop\Workspace\LineFollower_v1_0\Release\experiment1\experiment1" "C:\Users\Rabia\Desktop\Workspace\LineFollower_v1_0\Release\experiment1\experiment1\experiment1.FWP" 0 
+[INFORMATION]
+"No workspace information available" 
+[SCRAP]
+[PROJECT_DEPENDENCY]
+[WORKSPACE_PROPERTIES]
+[VCS]
+"" "" "" 0 
+[VCS_PROJECT]
+[HELP_FILES]
+[GENERAL_DATA_PROJECT]
+[SYSMENUTOOLS]
+[USERMENUTOOLS]
+[CUSTOMPLACEHOLDERS]
+[MAKEFILE_BUILD_INFO]
+"$(WORKSPDIR)\make\$(PROJECTNAME).mak" "" 0 0 
+[VD_CONFIGURATION_OPTIONS]
+[VD_CONFIGURATIONS]
+[END]

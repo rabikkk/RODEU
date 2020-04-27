@@ -1,0 +1,109 @@
+[HIMDBVersion]
+2.0
+[DATABASE_VERSION]
+"2.5" 
+[PROJECT_DETAILS]
+"experiment1" "C:\Users\Rabia\Desktop\Workspace\LineFollower_v1_0\Release\experiment1\experiment1" "C:\Users\Rabia\Desktop\Workspace\LineFollower_v1_0\Release\experiment1\experiment1\experiment1.FWP" "All Flash Devices" "" "FDT Project Generator" 
+[INFORMATION]
+"No project information available" 
+[TOOL_CHAIN]
+"" "" 
+[CONFIGURATIONS]
+"Default" "C:\Users\Rabia\Desktop\Workspace\LineFollower_v1_0\Release\experiment1\experiment1\Default" 
+[BUILD_PHASES]
+[DEFINITION_PARSERS]
+[TOOL_ENVIRONMENT]
+[EXTENSIONS]
+"FDT DDI Files" "DDI" 
+"S-Record Files" "MOT" 
+"S2 Files" "S2" 
+"FDT Binary Files" "CDE" 
+"Binary Files" "BIN" 
+"IAR A20 Files" "A20" 
+"IAR A37 Files" "A37" 
+"REC Files" "REC" 
+[FILE_GROUPS]
+"FDT DDI Files" "BIN" "EDITOR" "" 
+"S-Record Files" "BIN" "HEX_EDITOR" "" 
+"S2 Files" "BIN" "HEX_EDITOR" "" 
+"FDT Binary Files" "BIN" "HEX_EDITOR" "" 
+"Binary Files" "BIN" "HEX_EDITOR" "" 
+"IAR A20 Files" "BIN" "HEX_EDITOR" "" 
+"IAR A37 Files" "BIN" "HEX_EDITOR" "" 
+"REC Files" "BIN" "HEX_EDITOR" "" 
+[ASSOCIATED_APPLICATIONS]
+[TOOLCHAIN_PHASE]
+[UTILITY_PHASE]
+[CUSTOM_PHASES]
+[CUSTOM_PHASE_INPUT_GROUP]
+[BUILD_ORDER]
+[BUILD_PHASE_DETAILS]
+[SCRAP]
+"Project Generator Setup File" "" 
+[MAPPINGS]
+[PROJECT_FILES]
+[FOLDER]
+[GENERAL_DATA_PROJECT]
+"FDT_BaseDevice" "" 
+"FDT_Comments" "" 
+"FDT_DoSecurityProtection" "Prompt" 
+"FDT_BlockProtectConnect" "1" 
+"FDT_Interface" "" 
+"FDT_UseDefaultBaudRate" "FALSE" 
+"FDT_ResetPinLowOnDisconnect" "FALSE" 
+"FDT_DoSecurityProtectionLevel" "00" 
+"FDT_ResetPinOutputs" "00000000" 
+"FDT_ConnectionResetSuppression" "FFFFFFFF" 
+"FDT_ResetOnDisconnect" "No" 
+"FDT_McuId" "0" 
+"FDT_ResetPinSettings" "00000000" 
+"FDT_KernelPath" "" 
+"FDT_KernelResident" "FALSE" 
+"FDT_UPMPinSettings" "00000000" 
+"FDT_InternalClock" "FALSE" 
+"FDT_CKM" "0" 
+"FDT_ClockMode" "-1" 
+"FDT_UserPinOutputs" "00000000" 
+"FDT_UserPinSettings" "00000000" 
+"FDT_UseInternalKernel" "TRUE" 
+"FDT_BlockProtectDisconnect" "1" 
+"FDT_SerNumConfigString" "" 
+"FDT_Port" "" 
+"FDT_BlockLockConnect" "1" 
+"FDT_BlockLockDisconnect" "1" 
+"FDT_MessageLevel" "1" 
+"FDT_CKP" "0" 
+"FDT_BootMode" "TRUE" 
+"FDT_BaudRate" "" 
+"FDT_FileOverRomSizeOption" "Yes" 
+"FDT_PinOutputs" "00000000" 
+"FDT_IDWriteEnable" "TRUE" 
+"FDT_IDWriteSecurityLevel" "1" 
+"FDT_Protection" "1" 
+"FDT_Protocol" "" 
+"FDT_PinSettings" "00000000" 
+"FDT_ErasureOfUserBootArea" "No" 
+"FDT_ClockType" "" 
+"FDT_ClockSync" "00000000" 
+"FDT_ReinterrogateGenericDevice" "No" 
+"FDT_Device" "" 
+"FDT_AutoConnect" "0" 
+"FDT_Frequency" "0.0000" 
+"FDT_DoReadbackVerification" "No" 
+"FDT_IDWriteDisconnect" "1" 
+[ON_DEMAND_COMPONENTS_LOADED]
+[SYNC_SESSION_NAMES]
+[SESSIONS]
+"Default" "C:\Users\Rabia\Desktop\Workspace\LineFollower_v1_0\Release\experiment1\experiment1\Default.hsf" 0 
+[GENERAL_DATA_SESSION_Default]
+[OPTIONS_Default]
+"" 0 
+[SESSION_DATA_CONFIGURATION_SESSION_Default_Default]
+"MEMORY_MAPPING_OPTIONS" "" 
+[EXT_DEBUGGER_INFO]
+0 "" "" "" "" 
+[EXCLUDED_FILES_Default]
+[LINKAGE_ORDER_Default]
+[GENERAL_DATA_CONFIGURATION_Default]
+[GENERAL_DATA_CONFIGURATION_SESSION_Default_Default]
+[END]
