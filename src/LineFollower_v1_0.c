@@ -62,4 +62,3 @@ void main(void) {
 	}
 }
 
-//1şeydeniyorum1_1 selim
