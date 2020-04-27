@@ -59,7 +59,8 @@ void main(void) {
 
 		pidController();
 
-	//ozan	
+	// yiğit
+		//ozan	
 		
 	}
 }
